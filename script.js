@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-	str=str.split(" ").join("");
+	str=str.split(" ").join("").toLowerCase();
 	let i=0;
 	let j=str.length-1;
 	let isPal=true;
